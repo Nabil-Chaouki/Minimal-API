@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\CsharpProjects\\PizzaStore\\PizzaStore.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj",
       "projectName": "PizzaStore",
-      "projectPath": "C:\\Users\\Administrator\\CsharpProjects\\PizzaStore\\PizzaStore.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\CsharpProjects\\PizzaStore\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
