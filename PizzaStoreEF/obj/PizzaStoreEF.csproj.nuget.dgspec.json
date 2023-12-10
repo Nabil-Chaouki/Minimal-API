@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStoreEF\\PizzaStoreEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStoreEF\\PizzaStoreEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj",
-        "projectName": "PizzaStore",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\PizzaStore.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStoreEF\\PizzaStoreEF.csproj",
+        "projectName": "PizzaStoreEF",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStoreEF\\PizzaStoreEF.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStore\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Minimal-API\\PizzaStoreEF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
